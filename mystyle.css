@@ -1,7 +1,34 @@
-.header {
-	background: yellow;
+body {
+	margin:auto;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
-.name {
+.header {
+	width: 100%;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	background: yellow;
+	height: 30px;
+}
+
+.header-nam {
+	text-align: center;
+	background:green; 
+	width: 230px;
+	margin-left: 20px;
 	color: pink;
+}
+
+.image {
+	float: left;
+	clear: both;
+	width: 200px;
+	
+}
+
+.bio {
+	background: pink;
+	margin-left: 220px;
+    height: 200px;
 }
